@@ -215,13 +215,13 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="Contact Admin",
+                             text="Contact My Master",
                              url="https://t.me/David9010")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/Animekaizoku/SaitamaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
