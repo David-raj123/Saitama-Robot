@@ -207,21 +207,13 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="YouTube Channel",
-                             url=f"https://Youtube.com/c/TeluguCartoonWorldTvForAll"),
-                         InlineKeyboardButton(
-                             text="Telegram channel",
-                             url="https://t.me/TeluguCartoonWorld")
+                             text="Join Channel",
+                             url="https://t.me/David_Botz")
                      ],
                      [
                          InlineKeyboardButton(
                              text="Contact My Master",
                              url="https://t.me/David9010")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/David-raj123/SaitamaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
